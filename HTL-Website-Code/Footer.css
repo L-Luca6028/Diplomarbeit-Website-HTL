@@ -67,3 +67,18 @@
     text-decoration: none;
 
 }
+
+
+.logoFooter {
+    margin-left: 40px;
+    margin-top: 20px;
+    /*Durchgezogene Linie*/
+    border-top: 1px solid #d3d4d3;
+    /*Abstand zwischen Linie und Logo*/
+    padding-top: 20px; 
+    max-width: 95%;
+}
+
+.logo {
+    max-width: 100%; 
+}
