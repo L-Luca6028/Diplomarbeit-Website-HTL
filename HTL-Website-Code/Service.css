@@ -1,0 +1,65 @@
+.service {
+    text-align: center;
+}
+
+.gridService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gridService h2{
+  font-size: 32px;
+  font-display: swap;
+  padding-bottom: 10px; 
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v32-latin-regular.woff2') format('woff2');
+  width: 600px;
+  word-break: break-all;
+}
+
+
+.gridService h3{
+  font-size: 24px;
+  /*swap: Gives the font face an extremely small block period and an infinite swap period.*/
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/noto-serif-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  padding: 10px;
+}
+
+.iconService {
+    width: 20px; /* Passe die Breite des Icons nach Bedarf an */
+    height: 20px; /* Passe die Höhe des Icons nach Bedarf an */
+    margin-left: 5px; /* Füge einen Abstand zwischen Text und Icon hinzu */
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    color: #ffffff; 
+    background-color: #c10a25; 
+    border: 1px solid #c10a25; 
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+.button p{
+  font-size: 16px;
+}
+
+.imageHTL img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 600px;
+  border-radius: 20px;
+}
