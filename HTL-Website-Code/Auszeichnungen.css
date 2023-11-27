@@ -35,6 +35,7 @@
     grid-template-columns: repeat(3, 1fr); /* Hier kannst du die Anzahl der Spalten anpassen */
     gap: 5px; /* Füge einen Abstand zwischen den Icons hinzu */
     justify-content: center;
+    margin-top: 50px;
 }
 
 .grid-itemAUSZ {
